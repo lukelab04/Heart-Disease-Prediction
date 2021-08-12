@@ -29,15 +29,16 @@ with open('heart.csv') as data:
 
 #COMMENT OUT BELOW LINES TO TRAIN THE NETWORK   
 
-# for i in range(10):
+# net = network.network
+
+# for i in range(1):
 #     print(i)
 #     random.Random(i).shuffle(input)
 #     random.Random(i).shuffle(output)
-#     # if i == 0:
-#     #     net = deepcopy(network.train(structure, input, output, 0.3, 5000))
-#     # else:
-#     #     net = deepcopy(network.resume(net, input, output, 0.3, 5000))
-#     deepcopy(network.resume(net, input, output, 0.1, 1000))
+#     if i == 0:
+#         net = deepcopy(network.train(structure, input, output, 0.3, 10))
+#     else:
+#         net = deepcopy(network.resume(net, input, output, 0.3, 10))
 
 
 
